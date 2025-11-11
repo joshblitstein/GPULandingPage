@@ -59,7 +59,7 @@ function App() {
           <div className="hero-content">
             <h1 className="main-heading">The Clear Market for AI Servers</h1>
             <p className="description">
-              Buy and sell GPU clusters with verified ownership, transparent pricing, and protected transactions — without the broker maze.
+              Buy and sell GPU clusters with verified ownership, transparent pricing, and protected transactions without the broker maze.
             </p>
             <div className="cta-buttons">
               <button className="cta-button primary">Get Started</button>
@@ -79,7 +79,7 @@ function App() {
             <img src="/cluster.png" alt="Server Cluster" className="cluster-image" />
           </div>
           <div className="problem-content">
-            <h2 className="problem-heading">The AI Hardware Market Is Noisey</h2>
+            <h2 className="problem-heading">The AI Hardware Market Is Noisy</h2>
             <p className="problem-text">
               Buying a GPU cluster shouldn’t be this messy. Today the market is clogged with endless middlemen, unverifiable inventory, hidden markups, and deals that collapse under confusion. Buyers can't trust what's real. Sellers can't find qualified counterparties. A multi-billion-dollar market runs on screenshots, rumors, and hope.
             </p>
