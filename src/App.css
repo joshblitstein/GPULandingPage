@@ -312,6 +312,14 @@
   letter-spacing: -0.02em;
 }
 
+.gradient-text {
+  background: linear-gradient(135deg, #8547B7 0%, #DF40A6 50%, #5D40BD 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
 .description {
   font-size: 18px;
   color: #4a4a4a;
