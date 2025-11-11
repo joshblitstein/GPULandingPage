@@ -76,7 +76,7 @@ function App() {
       <section className="problem-section">
         <div className="problem-container">
           <div className="problem-image-column">
-            <img src="/cluster.png" alt="Server Cluster" className="cluster-image" />
+            <img src="/clusterPurp.png" alt="Server Cluster" className="cluster-image" />
           </div>
           <div className="problem-content">
             <h2 className="problem-heading">The AI Hardware Market Is Noisy</h2>
