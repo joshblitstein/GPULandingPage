@@ -454,13 +454,14 @@
 .server-sketch-image {
   width: 100%;
   max-width: 350px;
-  height: auto;
+  height: 700px;
 }
 
 .how-it-works-steps-column {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  align-items: end;
 }
 
 .how-step {
@@ -792,50 +793,59 @@
   letter-spacing: -0.02em;
 }
 
-.who-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
+.who-table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
-.who-column {
-  text-align: center;
+.who-table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-.who-column-title {
+.who-table-header {
   font-size: 28px;
   font-weight: 700;
   color: #1a1a1a;
-  margin-bottom: 24px;
-  line-height: 1.2;
+  padding: 24px 32px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-bottom: 2px solid #e0e0e0;
 }
 
-.who-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.who-table-header:first-child {
+  border-right: 1px solid #e0e0e0;
+}
+
+.who-table-header:last-child {
+  border-left: 1px solid #e0e0e0;
+}
+
+.who-table tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.who-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.who-table td {
   font-size: 20px;
   color: #1a1a1a;
-  line-height: 1.8;
-}
-
-.who-list li {
-  position: relative;
-  padding-left: 16px;
-  margin-bottom: 20px;
+  padding: 20px 32px;
+  text-align: center;
   line-height: 1.6;
+  vertical-align: middle;
 }
 
-.who-list li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.6em;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #8547B7 0%, #DF40A6 50%, #5D40BD 100%);
-  transform: translateY(-50%);
+.who-table td:first-child {
+  border-right: 1px solid #f0f0f0;
 }
 
 /* Company Logos Section */
@@ -955,6 +965,7 @@
 
   .how-it-works-steps-column {
     order: 1;
+    align-items: end;
   }
 
   .how-it-works-image-column {
@@ -963,6 +974,7 @@
 
   .server-sketch-image {
     max-width: 100%;
+
   }
 
   .how-step {
@@ -1047,17 +1059,14 @@
     margin-bottom: 40px;
   }
 
-  .who-columns {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .who-column-title {
+  .who-table-header {
     font-size: 24px;
+    padding: 20px 20px;
   }
 
-  .who-list {
+  .who-table td {
     font-size: 18px;
+    padding: 18px 20px;
   }
 
   .logos-container {
@@ -1209,26 +1218,17 @@
     margin-bottom: 32px;
   }
 
-  .who-columns {
-    gap: 32px;
+  .who-table {
+    max-width: 100%;
   }
 
-  .who-column-title {
+  .who-table-header {
     font-size: 22px;
-    margin-bottom: 20px;
+    padding: 20px 16px;
   }
 
-  .who-list {
+  .who-table td {
     font-size: 16px;
-  }
-
-  .who-list li {
-    padding-left: 14px;
-    margin-bottom: 16px;
-  }
-
-  .who-list li::before {
-    width: 6px;
-    height: 6px;
+    padding: 16px;
   }
 }

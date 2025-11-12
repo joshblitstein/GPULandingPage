@@ -138,7 +138,7 @@ function App() {
               </div>
             </div>
             <div className="how-it-works-image-column">
-              <img src="/server_sketch_transparent.png" alt="Server Sketch" className="server-sketch-image" />
+              <img src="/howitworks.png" alt="How It Works" className="server-sketch-image" />
             </div>
           </div>
         </div>
@@ -307,25 +307,33 @@ function App() {
       <section className="who-section">
         <div className="who-container">
           <h2 className="who-heading">Who <span className="gradient-text">Nimbus</span> Is For</h2>
-          <div className="who-columns">
-            <div className="who-column">
-              <h3 className="who-column-title">For Buyers</h3>
-              <ul className="who-list">
-                <li>Access verified GPU clusters</li>
-                <li>Avoid broker noise</li>
-                <li>Secure transactions through escrow</li>
-                <li>Scale compute without chaos</li>
-              </ul>
-            </div>
-            <div className="who-column">
-              <h3 className="who-column-title">For Sellers</h3>
-              <ul className="who-list">
-                <li>List real hardware with proof once</li>
-                <li>Meet qualified buyers instantly</li>
-                <li>Faster closings, cleaner deals</li>
-                <li>No chasing. No nonsense.</li>
-              </ul>
-            </div>
+          <div className="who-table-container">
+            <table className="who-table">
+              <thead>
+                <tr>
+                  <th className="who-table-header">For Buyers</th>
+                  <th className="who-table-header">For Sellers</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Access verified GPU clusters</td>
+                  <td>List real hardware with proof once</td>
+                </tr>
+                <tr>
+                  <td>Avoid broker noise</td>
+                  <td>Meet qualified buyers instantly</td>
+                </tr>
+                <tr>
+                  <td>Secure transactions through escrow</td>
+                  <td>Faster closings, cleaner deals</td>
+                </tr>
+                <tr>
+                  <td>Scale compute without chaos</td>
+                  <td>No chasing. No nonsense.</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
