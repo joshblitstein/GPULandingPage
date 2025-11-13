@@ -89,6 +89,7 @@
   padding: 8px 16px;
   border-radius: 8px;
   transition: background-color 0.2s;
+  text-decoration: none;
 }
 
 .nav-button-secondary:hover {
@@ -105,6 +106,8 @@
   padding: 8px 20px;
   border-radius: 8px;
   transition: transform 0.2s, box-shadow 0.2s;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .nav-button-primary:hover {
@@ -199,6 +202,8 @@
 .mobile-nav-button.primary {
   background: linear-gradient(135deg, #8547B7 0%, #DF40A6 50%, #5D40BD 100%);
   color: white;
+  display: block;
+  text-decoration: none;
   border: none;
 }
 
@@ -338,6 +343,8 @@
   padding: 16px 32px;
   border-radius: 12px;
   font-size: 16px;
+  display: inline-block;
+  text-decoration: none;
   font-weight: 500;
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
