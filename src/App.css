@@ -611,7 +611,7 @@
   position: relative;
 }
 
-/* Odd steps (1, 3, 5): Icon on top, number on bottom */
+/* Odd steps (1, 3, 5): Text on top, icon in middle, number on bottom */
 /* Steps are at positions 1, 5, 9... (4n-3) */
 .timeline-step:nth-child(4n-3) .timeline-top {
   order: 3;
@@ -620,16 +620,18 @@
 }
 
 .timeline-step:nth-child(4n-3) .timeline-icon {
+  order: 2;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.timeline-step:nth-child(4n-3) .timeline-text {
   order: 1;
   margin-bottom: 8px;
   margin-top: 0;
 }
 
-.timeline-step:nth-child(4n-3) .timeline-text {
-  order: 2;
-}
-
-/* Even steps (2, 4, 6): Number on top, icon on bottom */
+/* Even steps (2, 4, 6): Number on top, icon in middle, text on bottom */
 /* Steps are at positions 3, 7, 11... (4n-1) */
 .timeline-step:nth-child(4n-1) .timeline-top {
   order: 1;
@@ -639,12 +641,14 @@
 
 .timeline-step:nth-child(4n-1) .timeline-icon {
   order: 2;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   margin-top: 8px;
 }
 
 .timeline-step:nth-child(4n-1) .timeline-text {
   order: 3;
+  margin-top: 8px;
+  margin-bottom: 0;
 }
 
 .timeline-top {
