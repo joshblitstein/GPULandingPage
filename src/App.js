@@ -57,7 +57,7 @@ function App() {
       <main className="hero-section">
         <div className="hero-container">
           <div className="hero-content">
-            <h1 className="main-heading">The <span className="gradient-text">Clear</span> Market for AI Servers</h1>
+            <h1 className="main-heading">The <span className="gradient-text">Clear</span> Market for AI Infrastructure</h1>
             <p className="description">
               Buy and sell GPU clusters with verified ownership, transparent pricing, and protected transactions without the broker maze.
             </p>
